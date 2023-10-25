@@ -1,0 +1,301 @@
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+    /* coomn css */
+    .my-btn {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+
+    /* ===================navbar style ==========================*/
+    .navbar {
+        padding: 10px 0;
+        top: 0;
+        background: rgb(255, 162, 162);
+    }
+
+    .navbar-nav .nav-item .nav-link img {
+        top: 80%;
+        width: 30px;
+    }
+
+    .navbar-nav {
+        flex-wrap: wrap;
+        flex-direction: row;
+        column-gap: 27px;
+        column-gap: 27px;
+        justify-content: center;
+        padding: 30px 0;
+    }
+
+    .navbar .custom-btn {
+        font-size: 16px;
+        padding: 12px 18px;
+        border-radius: 8px;
+        width: 100%;
+    }
+
+    .navbar-toggler {
+        border: 0;
+    }
+
+    .navbar-toggler:focus {
+        outline: 0;
+        box-shadow: none;
+    }
+
+    /* =================navbar end==================== */
+
+    /*================= banner responsive================ */
+
+    #banner-part .banner-img img {
+        margin-left: -46px;
+        display: none;
+    }
+
+    #banner-part {
+        padding-top: 95px;
+    }
+
+    #banner-part .text h2 {
+        font-size: 42px;
+    }
+
+    #banner-part .text h1 {
+        font-size: 54px;
+        margin-top: -23px;
+    }
+
+    #banner-part .text p {
+        margin: 11px 0 29px;
+    }
+
+    /*================= banner-part end=============== */
+
+
+    /*================= history-part start=============== */
+    #history-part {
+        background: #000;
+        padding: 0;
+    }
+
+    #history-part .container {
+        background: url(../images/history.png) no-repeat center / cover;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        position: relative;
+        z-index: 1;
+    }
+
+    #history-part .container::after {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: -1;
+    }
+
+    #history-part .images {
+        display: none;
+    }
+
+    #history-part .text p {
+        color: #ececec;
+        font-size: 14px;
+        line-height: 23px;
+        margin-bottom: 0;
+        text-align: justify;
+    }
+
+    #history-part .title h3 {
+        color: #ffff;
+    }
+
+    #history-part .title img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: none;
+    }
+
+    #history-part .title .love-shape {
+        display: block;
+    }
+
+    #history-part .title {
+        padding: 37px 0 0 40px;
+    }
+
+
+
+    /*================= history-part end=============== */
+    /*================= gift-part start=============== */
+    #gift-part .container .col-lg-7 {
+        padding-left: 15px;
+    }
+
+    #gift-part .container .images img {
+        display: none;
+        text-align: justify;
+    }
+
+    #gift-part {
+        padding: 18px 0px 26px;
+    }
+
+    #gift-part {
+        padding: 46px 0px 58px;
+    }
+
+    #gift-part .container .title h3 {
+        font-size: 20px;
+    }
+
+    #gift-part .container .title h2 {
+        font-size: 29px;
+        margin-top: -7px;
+        margin-bottom: 9px;
+    }
+
+    /*================= gift-part end=============== */
+
+
+
+    /*================= ticket-part start=============== */
+    #ticket-part {
+        padding: 29px 0 4px;
+    }
+
+    #ticket-part .container {
+        background: url(../images/ticket.png) no-repeat center / cover;
+        position: relative;
+        z-index: 11;
+    }
+
+    #ticket-part .container::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: rgba(0, 0, 0, 0.712);
+        position: absolute;
+        z-index: -1;
+    }
+
+    #ticket-part .text p {
+        text-align: left;
+        color: white;
+        font-size: 19px;
+        line-height: 24px;
+        text-align: justify;
+        margin-bottom: 0;
+    }
+
+    #ticket-part .container .images img {
+        display: none;
+    }
+
+    #ticket-part .container .title img {
+        display: none;
+    }
+
+    /*================= ticket-part end=============== */
+
+
+    /*================= offer-part start=============== */
+    #offer-part {
+        padding: 12px 0;
+    }
+
+    #offer-part .container .title h2 {
+        margin-bottom: 12px;
+    }
+
+    #offer-part .music:hover {
+        background-color: #f1f1f1;
+        border-right: none;
+        box-shadow: none;
+    }
+
+    /*================= gift-part end=============== */
+    /*================= counter-part start=============== */
+    #counter-part {
+        position: relative;
+        z-index: 1;
+    }
+
+    #counter-part::after {
+        content: "";
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: rgb(0, 0, 0);
+        z-index: -1;
+    }
+
+
+    #counter-part .main p {
+        color: white;
+    }
+
+    /*================= counter-part end=============== */
+
+
+    /*================= newslater-part start=============== */
+
+    footer .newsleteer {
+        padding: 28px 20px;
+        border-radius: 22px;
+        flex-direction: column;
+    }
+
+    footer .newsleteer .text i {
+        font-size: 25px;
+    }
+
+    footer .newsleteer .inner-text h3 {
+        font-size: 26px;
+        line-height: 14px;
+    }
+
+    footer .newsleteer form {
+        column-gap: 20px;
+        flex-direction: column;
+        row-gap: 12px;
+    }
+
+    footer .newsleteer form .plane {
+        top: 59px;
+        height: 40%;
+    }
+
+    /*================= newslater-part end=============== */
+
+
+
+    /*================= footer-part start=============== */
+    footer .container .location {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .container .location {
+        padding: 18px 0;
+    }
+
+    footer .copy-right p {
+        font-size: 11px;
+    }
+
+    footer .copy-right p span {
+        font-size: 11px;
+    }
+
+    /*================= footer-part end=============== */
+}
